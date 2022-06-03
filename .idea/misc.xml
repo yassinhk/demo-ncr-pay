@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/Data/Projects/NcrPay/ncrpay-mobile/app/src/main/res/drawable/ic__logout.xml" value="0.145" />
+        <entry key="..\:/Users/PC/Data/Projects/NcrPay/ncrpay-mobile/app/src/main/res/drawable/ic_composant_1___1.xml" value="0.122" />
+        <entry key="..\:/Users/PC/Data/Projects/NcrPay/ncrpay-mobile/app/src/main/res/drawable/ic_history.xml" value="0.145" />
+        <entry key="..\:/Users/PC/Data/Projects/NcrPay/ncrpay-mobile/app/src/main/res/drawable/ic_person.xml" value="0.145" />
+        <entry key="..\:/Users/PC/Data/Projects/NcrPay/ncrpay-mobile/app/src/main/res/drawable/ic_send_money.xml" value="0.145" />
+        <entry key="..\:/Users/PC/Data/Projects/NcrPay/ncrpay-mobile/app/src/main/res/drawable/ic_transfer.xml" value="0.145" />
+        <entry key="..\:/Users/PC/Data/Projects/NcrPay/ncrpay-mobile/app/src/main/res/drawable/ic_withdraw.xml" value="0.145" />
+        <entry key="..\:/Users/PC/Data/Projects/NcrPay/ncrpay-mobile/app/src/main/res/font/impact.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/PC/Data/Projects/NcrPay/ncrpay-mobile/app/src/main/res/layout/sample_login.xml" value="0.16621376811594202" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

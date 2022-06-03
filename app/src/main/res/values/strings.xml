@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">N&amp;CR Pay</string>
+    <string name="pay">Pay</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LogIn</string>
+    <string name="error_login_field_empty">
+        Login Fields are empty
+    </string>
+    <string name="error_login">
+        Username / Password is incorrect
+    </string>
+    <string name="number">N°</string>
+    <string name="account_number">Account Number</string>
+    <string name="balance">Balance : </string>
+    <string name="last_connection">Last Connection : </string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="send_money">Send</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="transfer">Transfer</string>
+    <string name="logout">logout</string>
+    <string name="amount">Amount</string>
+    <string name="receiver_identity_number">Receiver ID number</string>
+    <string name="phone_number">Phone number</string>
+    <string name="send">Send</string>
+    <string name="no_data">No history found</string>
+    <string name="send_mandat">Send mandate</string>
+    <string name="send_mandat_success">Mandate created successfully and SMS was sent</string>
+    <string name="your_code">This your code to get your money from ATM / Service Station</string>
+</resources>
