@@ -24,17 +24,18 @@ fun ClientInformation(name : String){
     ){
         Column (modifier = Modifier.padding(16.dp)){
             Text(
-                text = name,
+                modifier = Modifier.padding(vertical = 8.dp),
+                text = name.uppercase(),
                 color = Color.DarkGray,
-                fontSize = 18.sp,
+                fontSize = 22.sp,
                 fontWeight = FontWeight.Bold
             )
-            Text(
-                modifier = Modifier.padding(0.dp,8.dp),
-                text = stringResource(id = R.string.last_connection) +" 2022-05-12 16:40:15",
-                color = Color.DarkGray,
-                fontSize = 12.sp,
-            )
+//            Text(
+//                modifier = Modifier.padding(0.dp,8.dp),
+//                text = stringResource(id = R.string.last_connection) +" 2022-05-12 16:40:15",
+//                color = Color.DarkGray,
+//                fontSize = 12.sp,
+//            )
         }
     }
 }

@@ -1,5 +1,6 @@
 package tn.com.ncr.ncrpay.presentation.ui.send.components
 
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.KeyboardActionScope
 import androidx.compose.foundation.text.KeyboardActions
@@ -21,7 +22,7 @@ fun TextFieldOut(
     onNext : (KeyboardActionScope.()-> Unit),
 ){
     OutlinedTextField(
-        modifier = Modifier.padding(vertical = 8.dp),
+        modifier = Modifier.padding(vertical = 8.dp).fillMaxWidth(),
         value = value,
         onValueChange = onChangeValue,
         label = {Text(text = label) },

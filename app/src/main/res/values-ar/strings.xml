@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">N&amp;CR Pay</string>
+    <string name="username">اسم االمستخدم</string>
+    <string name="pay">Pay</string>
+    <string name="password">كلمه السر</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="error_login_field_empty">إدخال اسم المستخدم / كلمة المرور فارغة</string>
+    <string name="error_login">اسم المستخدم / كلمة المرور غير صحيحة</string>
+    <string name="number">رقم</string>
+    <string name="account_number">رقم حساب</string>
+    <string name="balance">الرصيد :</string>
+    <string name="last_connection">آخر اتصال:</string>
+    <string name="history">السجلات</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="send_money">إرسال</string>
+    <string name="withdraw">سحب</string>
+    <string name="transfer">تحويل</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="amount">مبلغ</string>
+    <string name="receiver_identity_number">رقم هوية المتلقي</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="send">إرسال</string>
+    <string name="no_data">لم يتم العثور على سجل</string>
+    <string name="send_mandat">إرسال الأموال</string>
+    <string name="send_mandat_success">تم إرسال الأموال والرسائل القصيرة بنجاح</string>
+    <string name="your_code">هذا هو الرمز الخاص بك للحصول على أموالك من أجهزة الصراف الآلي / محطة الخدمة</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="cin">بطاقة التعريف</string>
+</resources>

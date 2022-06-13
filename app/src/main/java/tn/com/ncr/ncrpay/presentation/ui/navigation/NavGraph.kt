@@ -14,6 +14,7 @@ import tn.com.ncr.ncrpay.common.Constants.CLIENT_NAME_ARG_KEY
 import tn.com.ncr.ncrpay.presentation.ui.history.HistoryScreen
 import tn.com.ncr.ncrpay.presentation.ui.home.HomeScreen
 import tn.com.ncr.ncrpay.presentation.ui.login.LoginScreen
+import tn.com.ncr.ncrpay.presentation.ui.profile.ProfileScreen
 import tn.com.ncr.ncrpay.presentation.ui.send.SendScreen
 import tn.com.ncr.ncrpay.presentation.ui.splash_screen.SplashScreen
 import tn.com.ncr.ncrpay.presentation.ui.withdraw.WithdrawScreen
@@ -82,6 +83,11 @@ fun SetupNavGraph(navHostController:NavHostController){
                 it.arguments?.getInt(ACCOUNT_ID_ARG_KEY),
                 it.arguments?.getString(ACCOUNT_NUMBER_ARG_KEY)
             )
+        }
+        composable(
+            route = Screen.Profile.route
+        ){
+            ProfileScreen(navController = navHostController)
         }
 
     }

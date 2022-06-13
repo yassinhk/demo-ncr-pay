@@ -185,14 +185,14 @@ fun Menu(navController: NavHostController, idAccount: Int, accountNumber: String
                 accountNumber,
                 TO_HISTORY
             )
-            MenuBoxItem(
-                navController,
-                R.drawable.ic_transfer,
-                R.string.transfer,
-                idAccount ,
-                accountNumber,
-                TO_TRANSFER
-            )
+//            MenuBoxItem(
+//                navController,
+//                R.drawable.ic_transfer,
+//                R.string.transfer,
+//                idAccount ,
+//                accountNumber,
+//                TO_TRANSFER
+//            )
             MenuBoxItem(
                 navController,
                 R.drawable.ic_withdraw,
@@ -226,14 +226,14 @@ fun Menu(navController: NavHostController, idAccount: Int, accountNumber: String
                 accountNumber,
                 TO_PROFILE
             )
-            MenuBoxItem(
-                navController,
-                R.drawable.ic__logout,
-                R.string.logout,
-                idAccount,
-                accountNumber,
-                TO_LOGOUT
-            )
+//            MenuBoxItem(
+//                navController,
+//                R.drawable.ic__logout,
+//                R.string.logout,
+//                idAccount,
+//                accountNumber,
+//                TO_LOGOUT
+//            )
         }
     }
 
@@ -249,8 +249,8 @@ fun MenuBoxItem(
     to : String
 ){
     Card(modifier = Modifier
-        .height(100.dp)
-        .width(100.dp)
+        .height(150.dp)
+        .width(150.dp)
         .padding(8.dp)
         .clickable{navigate(navController,accountId,accountNumber, to)},
         border = BorderStroke(
@@ -267,8 +267,8 @@ fun MenuBoxItem(
         ){
             Icon(
                 modifier = Modifier
-                    .height(30.dp)
-                    .width(30.dp),
+                    .height(50.dp)
+                    .width(50.dp),
                 painter = painterResource(id = drawable) ,
                 contentDescription = stringResource(id = text),
                 tint = MaterialTheme.colors.primaryVariant
@@ -276,7 +276,7 @@ fun MenuBoxItem(
             Text(
                 modifier = Modifier.padding(4.dp),
                 text = stringResource(id = text).uppercase(Locale.getDefault()),
-                fontSize = 13.sp,
+                fontSize = 16.sp,
                 textAlign = TextAlign.Center,
                 color = MaterialTheme.colors.primaryVariant,
             )
@@ -312,12 +312,12 @@ fun navigate(
                 "send_screen/${accountId}/${accountNumber}"
             )
         }
-        TO_PROFILE->{
-            Log.i("MENU", "PROFILE")
+        TO_PROFILE ->{
+            navController.navigate(Screen.Profile.route)
         }
-        TO_LOGOUT->{
-            navController.navigate(Screen.Login.route)
-        }
+//        TO_LOGOUT->{
+//            navController.navigate(Screen.Login.route)
+//        }
     }
 }
 

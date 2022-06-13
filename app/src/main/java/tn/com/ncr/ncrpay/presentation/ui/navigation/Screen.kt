@@ -26,4 +26,5 @@ sealed class Screen(val route :String){
             return "withdraw_screen/${id}/${number}"
         }
     }
+    object Profile : Screen("profile_screen")
 }

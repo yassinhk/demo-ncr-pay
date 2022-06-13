@@ -28,4 +28,6 @@
     <string name="send_mandat">Send mandate</string>
     <string name="send_mandat_success">Mandate created successfully and SMS was sent</string>
     <string name="your_code">This your code to get your money from ATM / Service Station</string>
+    <string name="email">Email</string>
+    <string name="cin">ID Card</string>
 </resources>

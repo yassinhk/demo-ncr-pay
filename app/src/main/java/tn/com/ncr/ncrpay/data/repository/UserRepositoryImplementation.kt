@@ -1,5 +1,6 @@
 package tn.com.ncr.ncrpay.data.repository
 
+import kotlinx.coroutines.flow.Flow
 import tn.com.ncr.ncrpay.common.StoreData
 import tn.com.ncr.ncrpay.data.remote.NcrPayApi
 import tn.com.ncr.ncrpay.data.remote.dto.userDto.RequestBody
@@ -19,6 +20,10 @@ class UserRepositoryImplementation @Inject constructor(
 
     override suspend fun saveUserInfo(user: User) {
         dataStore.saveUser(user = user)
+    }
+
+    override fun getUserInfo(): Flow<User> {
+        return dataStore.getUserInfo()
     }
 }
 
